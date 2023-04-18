@@ -19,5 +19,5 @@ Build production assets into `dist/`, and then start
 
 ```
 npm run build
-NODE_ENV=production yarn dev
+NODE_ENV=production yarn build
 ```
