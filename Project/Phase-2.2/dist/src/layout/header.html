@@ -1,0 +1,62 @@
+<div class="nav-wrapper">
+  <script src="./src/js/util/nav.js"></script>
+  <script src="./src/js/util/body.js"></script>
+
+  <div id="Register">
+    <div class="form-class">
+      <button id="button-x1">
+        <div id="x-icon"></div>
+      </button>
+      <h2>Register</h2>
+      <form>
+        First Name <br>
+        <input type="text"><br>Last name<br>
+        <input type="text"><br>Email<br>
+        <input type="text"><br>Password<br>
+        <input type="text"><br>Repeat Password<br>
+        <input type="text"><br>
+        <input type="checkbox">
+        I agree to the Terms and Conditions
+        <br>
+        <input type="submit" value="Register">
+      </form>
+    </div>
+  </div>
+  <div id="Login">
+    <div class="form-class">
+      <button id="button-x2">
+        <div id="x-icon"></div>
+      </button>
+      <h2>Login</h2>
+      <form>
+        Email<br>
+        <input type="text"><br>Password<br>
+        <input type="text"><br>
+        <input type="submit" value="Login">
+
+      </form>
+    </div>
+  </div>
+
+  <div class="logo-container">
+    Clan Community
+  </div>
+  <nav>
+    <input class="hidden" type="checkbox" id="menuToggle">
+    <label class="menu-btn" for="menuToggle">
+      <div class="menu"></div>
+      <div class="menu"></div>
+      <div class="menu"></div>
+    </label>
+    <div class="nav-container">
+      <ul class="nav-tabs">
+        <li class="nav-tab"><a href='javascript:;' class="navlinks active" onclick="openSection(event, 'Home')">Home</a></li>
+        <li class="nav-tab"><a href='javascript:;' class="navlinks" onclick="openSection(event, 'Communities')">Communities</a></li>
+        <li class="nav-tab"><a href='javascript:;' class="navlinks" onclick="openSection(event, 'Reach-Us')">Reach Us</a></li>
+        <li class="nav-tab" id="login-button"><a>Login</a></li>
+        <li class="nav-tab" id="register-button"><a>Register</a></li>
+        <li class="nav-tab" id="nav-button"><a style="color: white; margin: 0 0 -0.05rem 0;">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
