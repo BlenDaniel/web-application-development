@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Responsive Layout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      
+      .c {
+        float: left;
+        width: 33.33%;
+      }
+      
+     
+      @media screen and (max-width: 768px) {
+        .c {
+          width: 50%;
+        }
+      }
+      
+      
+      @media screen and (max-width: 480px) {
+        .c {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Header</h1>
+    </header>
+    <div class="c">
+      <main>
+        <h2>Main Content Area - Column 1</h2>
+        <p>sample text.</p>
+      </main>
+    </div>
+    <div class="c">
+      <main>
+        <h2>Main Content Area - Column 2</h2>
+        <p>Sample text</p>
+      </main>
+    </div>
+    <div class="c">
+      <aside>
+        <h2>Sidebar - Column 3</h2>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+      </aside>
+    </div>
+    <footer>
+      <p>Footer</p>
+    </footer>
+  </body>
+</html>

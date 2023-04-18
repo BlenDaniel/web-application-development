@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="USAL web site">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(255, 213, 213);
+        
+      }
+
+      header,
+      main {
+        margin: 20px;
+        border: 1px solid gray;
+        padding: 20px;
+      }
+
+      hr {
+        height: 1px;
+        background-color: #ff0000;
+        border: none;
+      }
+
+      h2 {
+        color: #530202;
+      }
+
+      .my-images {
+        float: left;
+        width: 50%;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      dt {
+        color: #ff0000;
+      }
+
+      @media screen and (max-width: 768px) {
+        .my-images {
+          width: 50%;
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        .my-images {
+          width: 100%;
+        }
+      }
+    </style>
+    <title>About Me</title>
+  </head>
+  <body>
+    <header>
+      <h1 style="font-size:5vw; color: #530202;">About Blen Assefa</h1>
+      <p style="font-size:2vw; color: #530202;">
+        <em>My name is Blen Assefa and I'm</em> jolly <b>, clumsy</b>
+        <small>and</small> two-eyed.
+      </p>
+      <hr>
+    </header>
+    <main>
+      <h2>My Classes This Quarter</h2>
+      <ul>
+        <li>CSE 451 - Operating Systems</li>
+        <li>CSE 471 - Computer Design and Organization</li>
+        <li>PHYS 121 - Physics: Mechanics</li>
+        <li>CSE 498 - Research w/ Prof. Luis Ceze</li>
+      </ul>
+      <h2>My Favorite Movies</h2>
+      <p style="font-size:1vw;">
+        <em>(I actually don't watch too many movies, so...here goes!)</em>
+      </p>
+      <ol>
+        <li>The last 30 minutes of Forrest Gump <a href="https://www.imdb.com/list/ls027703691/">(IMDB)</a>
+        </li>
+        <li>Star Trek Episode V with Zazu <a href="https://www.imdb.com/list/ls027703691/">(IMDB)</a>
+        </li>
+        <li>Fight Club (not really, but I've seen like 3 movies total so this is my 3rd fave by technicality) <a href="https://www.imdb.com/list/ls027703691/">(IMDB)</a>
+        </li>
+      </ol>
+      <h2>My Moods</h2>
+      <div class="my-images">
+        <p style="font-size:1vw;">Happy: <img src="happy.jpeg" height="250" alt="happy">
+        </p>
+      </div>
+      <div class="my-images">
+        <aside>
+          <p style="font-size:1vw;">Sad: <img src="sad.jpeg" height="250" alt="sad">
+          </p>
+        </aside>
+      </div>
+      <br>
+      <h2>Fun Facts About My Neighbors</h2>
+      <ul>
+        <li>Sue Smith: Effervescent is a word that describes her.</li>
+        <li>Bill Thompson: Loves playing Yu-Gi-Oh.</li>
+      </ul>
+      <h2>My Favorite Movies</h2>
+      <p style="font-size:1vw;">( <cite>I actually don't watch too many movies,</cite> so...here goes!) </p>
+      <ol reversed="">
+        <li>The last 30 minutes of Forrest Gump <a href="https://www.imdb.com/list/ls027703691/">(IMDB)</a>
+          <dl>
+            <dt>Director</dt>
+            <dd>Robert Zemeckis</dd>
+            <dt>Genre</dt>
+            <dd>
+              <em>Comedy</em> / <em>Drama</em> / <em>Romance</em> (more)
+            </dd>
+            <dt>Tagline</dt>
+            <dd>The world will never be the same once you've seen it through the eyes of Forrest Gump.</dd>
+            <dt>Plot Outline</dt>
+            <dd>Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny, eludes him. <em>(more)</em>
+            </dd>
+          </dl>
+        </li>
+        <li>Star Trek Episode V with Zazu <a href="https://www.imdb.com/list/ls027703691/">(IMDB)</a>
+        </li>
+        <li>Fight Club (not really, but I've seen like 3 movies total so this is my 3rd fave by technicality) <a href="https://www.imdb.com/list/ls027703691/">(IMDB)</a>
+        </li>
+      </ol>
+    </main>
+    <footer>
+      <p>Thank you for reading!</p>
+      <p>Copyright 2023</p>
+    </footer>
+  </body>
+</html>

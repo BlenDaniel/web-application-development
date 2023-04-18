@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="name" content="Clan Community">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Style and Javascript Files -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>Clan Community</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <p class="logo-title">Clan Community</p>
+
+            <nav>
+                <div class="close-icon"><i class="material-icons">close</i></div>
+                <a href='javascript:;' class="navlinks active" onclick="openSection(event, 'Home')">Home</a>
+                <a href='javascript:;' class="navlinks" onclick="openSection(event, 'Communities')">Communities</a>
+                <a href='javascript:;' class="navlinks" onclick="openSection(event, 'Reach-Us')">Reach Us</a>
+            </nav>
+            <div class="bar-icon"><i class="material-icons">menu</i></div>
+            <div class="overlay"></div>
+        </div>
+    </header>
+    <main>
+        <!-- Home Section -->
+        <div id="Home" class="section-content" style="display: block;">
+
+            <div class="title">Looking for your kinda people ;)</div>
+            <div class="description">Whether your passions include hobbies, causes, or anything else, you can
+                connect with others who are also interested in your area. Find like-minded individuals who are
+                currently involved in the things you love and make meaningful connections
+                today.</div>
+            <div class="cta">
+                <div class="explor">Let's Go!</div>
+            </div>
+
+        </div>
+        <!-- Community Section -->
+        <div id="Communities" class="section-content">
+            <!-- about -->
+            <div class="communties-title">Looking for people who <br>share your interests?</div>
+
+            <!-- end about -->
+
+            <section id="wrapper">
+                <div class="content">
+                    <!-- Tab links -->
+                    <div class="tabs">
+                        <button class="tablinks active" data-country="yoga">
+                            <p data-title="yoga">Yoga</p>
+                        </button>
+                        <button class="tablinks" data-country="football">
+                            <p data-title="football">Football</p>
+                        </button>
+                        <button class="tablinks" data-country="swimming">
+                            <p data-title="swimming">Swimming</p>
+                        </button>
+                        <button class="tablinks" data-country="graphics">
+                            <p data-title="graphics">Graphics Design</p>
+                        </button>
+                    </div>
+
+                    <!-- Tab content -->
+                    <div class="wrapper_tabcontent">
+                        <div id="yoga" class="tabcontent active">
+                            <h3>Yoga community</h3>
+                            <p> If you're looking for a supportive and uplifting community to help you on your yoga
+                                journey, look no further than our yoga community. Connect with fellow yogis, learn new
+                                poses, and get inspired to deepen your practice. All
+                                levels are welcome!</p>
+                        </div>
+
+                        <div id="football" class="tabcontent">
+                            <h3>Football community </h3>
+                            <p> Are you a football fanatic? Our community is the perfect place to connect with other
+                                passionate football fans who love the game as much as you do. From discussing the latest
+                                matches to sharing tips and tricks, you'll find everything
+                                you need here.</p>
+                        </div>
+
+                        <div id="swimming" class="tabcontent">
+                            <h3>Swimming community</h3>
+                            <p>Join our swimming community and connect with other enthusiasts who share your love for
+                                the water. Whether you're a beginner or a seasoned swimmer, our community welcomes
+                                everyone who wants to stay fit, have fun, and make new
+                                friends. </p>
+                        </div>
+
+                        <div id="graphics" class="tabcontent">
+                            <h3>Graphics Design community</h3>
+                            <p>Join our graphics design community and connect with like-minded creatives who share your
+                                passion for art and design. From sharing tips and tricks to showcasing your work, our
+                                community is the perfect place to get inspired and
+                                take your skills to the next level.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Reach Us Section -->
+        <section id="Reach-Us" class="section-content">
+            <div class="contact_us">
+                <div class="container-contact">
+                    <div class="contact_inner">
+                        <div class="contact_form_inner">
+                            <div class="contact_field">
+                                <h3>Subscribe to our newsletter</h3>
+                                <div class="description">Just enter your <br> email. You will hear from us soon!</div>
+
+                                <form>
+                                    <input type="text" placeholder="Email Address">
+                                    <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                                            height="24">
+                                            <path fill="none" d="M0 0h24v24H0z" />
+                                            <path
+                                                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" />
+                                        </svg>
+                                    </button>
+                                </form>
+                                <button class="contact_form_submit">Send</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <section class="map_sec">
+                <div class="container-contact">
+
+
+                    <div class="map_inner">
+                        <h4>Find Us on Google Map</h4>
+                        <p> Our location is in Germany, Bremen at Constructor University.</p>
+                        <div class="map_bind">
+
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d221461.9842980034!2d8.706135327052051!3d53.17435599500826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sde!4v1679400064779!5m2!1sen!2sde"
+                                width="100%" height="450"  style="border:0;" allowfullscreen=""
+                                aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+
+        <div class="container-footer">
+            <div class="footer_inner">
+                <div class="c-footer">
+                    <div class="layout">
+
+
+                        <div class="layout_item w-50">
+                            <nav class="c-nav-tool">
+                                <h4 class="c-nav-tool_title">Menu</h4>
+                                <ul class="c-nav-tool_list">
+                                    <li>
+                                        <a href="/collections/all" class="c-link">Communties</a>
+                                    </li>
+
+
+                                </ul>
+                            </nav>
+
+                        </div>
+
+                        <div class="layout_item w-50">
+                            <nav class="c-nav-tool">
+                                <h4 class="c-nav-tool_title">Support</h4>
+                                <ul class="c-nav-tool_list">
+
+
+                                    <li class="c-nav-tool_item">
+                                        <a href="/pages/help" class="c-link">Help &amp; FAQ</a>
+                                    </li>
+
+                                    <li class="c-nav-tool_item">
+                                        <a href="/pages/terms-conditions" class="c-link">Terms &amp; Conditions</a>
+                                    </li>
+
+                                    <li class="c-nav-tool_item">
+                                        <a href="/pages/privacy-policy" class="c-link">Privacy Policy</a>
+                                    </li>
+
+                                    <li class="c-nav-tool_item">
+                                        <a href="/pages/contact" class="c-link">Contact</a>
+                                    </li>
+
+                                    <li class="c-nav-tool_item">
+                                        <a href="/account/login" class="c-link">
+                                            Login
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+
+                        </div>
+                    </div>
+                    <div class="layout c-2">
+                        <div class="layout_item w-100" style="display:flex;justify-content: end;align-items: end;">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36">
+                                <path fill="none" d="M0 0h24v24H0z" />
+                                <path
+                                    d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm1 10h3l-4-4-4 4h3v4h2v-4z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copyright">
+                <p>&copy; 2023</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+</body>
+
+
+
+</html>
